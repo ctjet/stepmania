@@ -1369,7 +1369,7 @@ bool GameState::IsExtraStage2() const
 
 Stage GameState::GetCurrentStage() const
 {
-	if( m_bDemonstrationOrJukebox )			return Stage_Demo;
+	if( m_bDemonstrationOrJukebox )			return;
 	// "event" has precedence
 	else if( IsEventMode() )			return Stage_Event;
 	else if( m_PlayMode == PLAY_MODE_ONI )		return Stage_Oni;

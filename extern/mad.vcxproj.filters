@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\bit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\fixed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\frame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\huffman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\layer12.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\layer3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\synth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\extern\mad-0.15.1b\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\fixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\huffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\layer12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\layer3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\mad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\synth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\extern\mad-0.15.1b\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\bench\stepmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\bench\stepmania\extern\mad-0.15.1b\D.dat">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="C:\bench\stepmania\extern\mad-0.15.1b\imdct_s.dat">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="C:\bench\stepmania\extern\mad-0.15.1b\qc_table.dat">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="C:\bench\stepmania\extern\mad-0.15.1b\rq_table.dat">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="C:\bench\stepmania\extern\mad-0.15.1b\sf_table.dat">
+      <Filter>Data Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{D152E398-151A-35E9-8CCC-383563F04096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{874E94B2-9E5A-3F92-8D13-310A17288386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0E549C6-386F-3B92-8BFA-FD456C556DF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\png.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngerror.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngget.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngmem.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngpread.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngread.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngrio.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngrtran.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngrutil.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngset.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngtest.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngtrans.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngwio.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngwrite.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngwtran.c" />
+    <ClCompile Include="C:\bench\stepmania\extern\libpng\pngwutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\png.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pngconf.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pngdebug.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pnginfo.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pnglibconf.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pngpriv.h" />
+    <ClInclude Include="C:\bench\stepmania\extern\libpng\pngstruct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\bench\stepmania\extern\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

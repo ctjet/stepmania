@@ -1,0 +1,2733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\bench\stepmania\src\GameLoop.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\global.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SpecialFiles.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StepMania.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\generated\verstub.cpp">
+      <Filter>Global Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\AnnouncerManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Bookkeeper.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CharacterManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CommandLineActions.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CryptManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\FontManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameSoundManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameState.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\InputFilter.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\InputMapper.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\InputQueue.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LightsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LuaManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MemoryCardManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MessageManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NetworkSyncManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteSkinManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PrefsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ProfileManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SongManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StatsManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ThemeManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\UnlockManager.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ezsockets.cpp">
+      <Filter>Global Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Actor.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorFrame.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorFrameTexture.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorMultiTexture.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorMultiVertex.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorProxy.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorScroller.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorSound.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActorUtil.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\AutoActor.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BitmapText.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DynamicActorScroller.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Model.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ModelManager.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ModelTypes.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Quad.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RollingNumbers.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Sprite.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Tween.cpp">
+      <Filter>Actors\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ActiveAttackList.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ArrowEffects.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\AttackDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Background.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BeginnerHelper.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CombinedLifeMeterTug.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DancingCharacters.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Foreground.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GhostArrowRow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\HoldJudgment.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Inventory.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LifeMeter.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LifeMeterBar.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LifeMeterBattery.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LifeMeterTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LyricDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteField.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PercentageDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Player.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ReceptorArrow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ReceptorArrowRow.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplay.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayAliveTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayBattle.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayCalories.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayLifeTime.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayNormal.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayOni.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayPercentage.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreDisplayRave.cpp">
+      <Filter>Actors\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BPMDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ComboGraph.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ControllerStateDisplay.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CourseContentsList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DifficultyList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DualScrollBar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\EditMenu.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\FadingBanner.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GradeDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GraphDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GrooveRadar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\HelpDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MemoryCardDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MenuTimer.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ModIcon.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ModIconRow.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MusicWheel.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MusicWheelItem.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\OptionRow.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\OptionsCursor.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\OptionsList.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PaneDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScrollBar.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SnapDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\TextBanner.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\WheelBase.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\WheelItemBase.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\WheelNotifyIcon.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\WorkoutGraph.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RoomInfoDisplay.cpp">
+      <Filter>Actors\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Banner.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BGAnimation.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BGAnimationLayer.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DifficultyIcon.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MeterDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StepsDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StreamDisplay.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Transition.cpp">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\RageDriver.cpp">
+      <Filter>Arch Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Dialog\Dialog.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Dialog\DialogDriver.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Dialog\DialogDriver_Win32.cpp">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooks.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooksUtil.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooks_Win32.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooks_Win32Static.cpp">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_MonkeyKeyboard.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_DirectInput.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_DirectInputHelper.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_MIDI.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_Para.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_Pump.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_RTIO.cpp">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_SystemMessage.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_SextetStream.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Export.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Win32Serial.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Win32Parallel.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_PacDrive.cpp">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\LoadingWindow\LoadingWindow.cpp">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\LoadingWindow\LoadingWindow_Win32.cpp">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\LowLevelWindow\LowLevelWindow.cpp">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\LowLevelWindow\LowLevelWindow_Win32.cpp">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriver.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Folder.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Windows.cpp">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_Generic.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_Null.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_FFMpeg.cpp">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_Generic_Software.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_Null.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\DSoundHelpers.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_DSound_Software.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_WaveOut.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_WDMKS.cpp">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\arch\Threads\Threads_Win32.cpp">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Course.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CourseLoaderCRS.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CourseUtil.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CourseWriterCRS.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Trail.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\TrailUtil.cpp">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Font.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\FontCharAliases.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\FontCharmaps.cpp">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LuaBinding.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LuaExpressionTransform.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LuaReference.cpp">
+      <Filter>Data Structures\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteData.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteDataUtil.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteDataWithScoring.cpp">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoader.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderBMS.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderDWI.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderJson.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderKSF.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderSM.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderSMA.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesLoaderSSC.cpp">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesWriterDWI.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesWriterJson.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesWriterSM.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NotesWriterSSC.cpp">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreKeeper.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreKeeperNormal.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreKeeperRave.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScoreKeeperShared.cpp">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Song.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SongCacheIndex.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SongOptions.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SongPosition.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SongUtil.cpp">
+      <Filter>Data Structures\Songs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Steps.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StepsUtil.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Style.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StyleUtil.cpp">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\AdjustSync.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Attack.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\AutoKeysounds.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\BackgroundUtil.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ImageCache.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Character.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CodeDetector.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CodeSet.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CubicSpline.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Command.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CommonMetrics.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CreateZip.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CryptHelpers.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DateTime.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Difficulty.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\DisplaySpec.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\EnumHelper.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\FileDownload.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Game.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameCommand.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameConstantsAndTypes.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameInput.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GameplayAssist.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\GamePreferences.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Grade.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\HighScore.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\JsonUtil.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LocalizedString.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\LyricsLoader.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ModsGroup.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\NoteTypes.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\OptionRowHandler.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PlayerAI.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PlayerNumber.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PlayerOptions.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PlayerStageStats.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\PlayerState.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Preference.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Profile.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RadarValues.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RandomSample.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SampleHistory.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenDimensions.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\SoundEffectControl.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\StageStats.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\TimingData.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\TimingSegments.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\TitleSubstitution.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RoomWheel.cpp">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFile.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileBasic.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriver.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverDeflate.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverDirect.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverDirectHelpers.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverMemory.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverReadAhead.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverSlice.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverTimeout.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileDriverZip.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileManager.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageFileManager_ReadAhead.cpp">
+      <Filter>Rage\File</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageBitmapTexture.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageDisplay.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageDisplay_Null.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageDisplay_OGL.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageDisplay_OGL_Helpers.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageModelGeometry.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load_BMP.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load_GIF.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load_JPEG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load_PNG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Load_XPM.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Save_BMP.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Save_JPEG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurface_Save_PNG.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurfaceUtils.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurfaceUtils_Dither.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurfaceUtils_Palettize.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSurfaceUtils_Zoom.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTexture.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTextureID.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTextureManager.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTexturePreloader.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTextureRenderTarget.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageDisplay_D3D.cpp">
+      <Filter>Rage\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageException.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageInput.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageInputDevice.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageLog.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageMath.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTypes.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageThreads.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageTimer.cpp">
+      <Filter>Rage\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSound.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundManager.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundMixBuffer.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundPosMap.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Chain.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_ChannelSplit.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Extend.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_FileReader.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Merge.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Pan.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_PitchChange.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_PostBuffering.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Preload.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Resample_Good.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_SpeedChange.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_ThreadedBuffer.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_WAV.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundUtil.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_Vorbisfile.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageSoundReader_MP3.cpp">
+      <Filter>Rage\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil_BackgroundLoader.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil_CachedObject.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil_CharConversions.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil_FileDB.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\RageUtil_WorkerThread.cpp">
+      <Filter>Rage\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenGameplay.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenGameplayLesson.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenGameplayNormal.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenGameplayShared.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenGameplaySyncMachine.cpp">
+      <Filter>Screens\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptions.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsCourseOverview.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsEditCourse.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsEditProfile.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsExportPackage.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsManageCourses.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsManageEditSteps.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsManageProfiles.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsMaster.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsMasterPrefs.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsMemoryCard.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenOptionsToggleSongs.cpp">
+      <Filter>Screens\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNetEvaluation.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNetRoom.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNetSelectBase.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNetSelectMusic.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNetworkOptions.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSMOnlineLogin.cpp">
+      <Filter>Screens\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Screen.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenAttract.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenBookkeeping.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenContinue.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenDebugOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenDemonstration.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenEdit.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenEditMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenEnding.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenEvaluation.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenExit.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenHighScores.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenHowToPlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenInstallOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenInstructions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenJukebox.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenMapControllers.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenMessage.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenMiniMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNameEntry.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenNameEntryTraditional.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenPackages.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenPlayerOptions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenProfileLoad.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenProfileSave.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenPrompt.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenRanking.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenReloadSongs.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSandbox.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSaveSync.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelect.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelectCharacter.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelectLanguage.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelectMaster.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelectMusic.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSelectProfile.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenServiceAction.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSetTime.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSongOptions.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSplash.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenStatsOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSyncOverlay.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenSystemLayer.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenTestInput.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenTestLights.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenTestSound.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenTextEntry.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenTitleMenu.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenUnlockBrowse.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenUnlockCelebrate.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenUnlockStatus.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\ScreenWithMenuElements.cpp">
+      <Filter>Screens\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\AppInstance.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\arch_setup.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\arch_time.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\CommandLine.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\Crash.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\CrashHandlerChild.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\CrashHandlerNetworking.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\DebugInfoHunt.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\DialogUtil.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\DirectXGuids.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\DirectXHelpers.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\ErrorStrings.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\GetFileInformation.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\GotoURL.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\GraphicsWindow.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\MessageWindow.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\RegistryAccess.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\RestartProgram.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\SpecialDirs.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\USB.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\VideoDriverInfo.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\WindowIcon.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\archutils\Win32\WindowsDialogBox.cpp">
+      <Filter>OS Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\CsvFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\IniFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\MsdFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\XmlFile.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\XmlToLua.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\XmlFileUtil.cpp">
+      <Filter>File Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\bench\stepmania\src\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\bench\stepmania\src\generated\config.hpp">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameLoop.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\global.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ProductInfo.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SpecialFiles.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StdString.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StepMania.h">
+      <Filter>Global Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\AnnouncerManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Bookkeeper.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CharacterManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CommandLineActions.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CryptManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\FontManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameSoundManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameState.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\InputFilter.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\InputMapper.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\InputQueue.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LightsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LuaManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MemoryCardManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MessageManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NetworkSyncManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteSkinManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PrefsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ProfileManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SongManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StatsManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ThemeManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\UnlockManager.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ezsockets.h">
+      <Filter>Global Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Actor.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorFrame.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorFrameTexture.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorMultiTexture.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorMultiVertex.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorProxy.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorScroller.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorSound.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActorUtil.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\AutoActor.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BitmapText.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DynamicActorScroller.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Model.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ModelManager.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ModelTypes.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Quad.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RollingNumbers.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Sprite.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Tween.h">
+      <Filter>Actors\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ActiveAttackList.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ArrowEffects.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\AttackDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Background.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BeginnerHelper.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CombinedLifeMeter.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CombinedLifeMeterTug.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DancingCharacters.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Foreground.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GhostArrowRow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\HoldJudgment.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Inventory.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LifeMeter.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LifeMeterBar.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LifeMeterBattery.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LifeMeterTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LyricDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteField.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PercentageDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Player.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ReceptorArrow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ReceptorArrowRow.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplay.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayAliveTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayBattle.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayCalories.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayLifeTime.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayNormal.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayOni.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayPercentage.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreDisplayRave.h">
+      <Filter>Actors\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BPMDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ComboGraph.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ControllerStateDisplay.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CourseContentsList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DifficultyList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DualScrollBar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\EditMenu.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\FadingBanner.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GradeDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GraphDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GrooveRadar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\HelpDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MemoryCardDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MenuTimer.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ModIcon.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ModIconRow.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MusicWheel.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MusicWheelItem.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\OptionRow.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\OptionsCursor.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\OptionsList.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PaneDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScrollBar.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SnapDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\TextBanner.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\WheelBase.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\WheelItemBase.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\WheelNotifyIcon.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\WorkoutGraph.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RoomInfoDisplay.h">
+      <Filter>Actors\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Banner.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BGAnimation.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BGAnimationLayer.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DifficultyIcon.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MeterDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StepsDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StreamDisplay.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Transition.h">
+      <Filter>Actors\Gameplay and Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\arch_default.h">
+      <Filter>Arch Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\RageDriver.h">
+      <Filter>Arch Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Dialog\Dialog.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Dialog\DialogDriver.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Dialog\DialogDriver_Win32.h">
+      <Filter>Arch Specific\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooks.h">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\ArchHooks\ArchHooks_Win32.h">
+      <Filter>Arch Specific\Arch Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_MonkeyKeyboard.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_DirectInput.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_DirectInputHelper.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_MIDI.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_Para.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_Pump.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\InputHandler\InputHandler_Win32_RTIO.h">
+      <Filter>Arch Specific\Input Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_SystemMessage.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_SextetStream.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\SextetUtils.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Export.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Win32Parallel.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Lights\LightsDriver_Win32Serial.h">
+      <Filter>Arch Specific\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\LoadingWindow\LoadingWindow.h">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\LoadingWindow\LoadingWindow_Win32.h">
+      <Filter>Arch Specific\Loading Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\LowLevelWindow\LowLevelWindow.h">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\LowLevelWindow\LowLevelWindow_Win32.h">
+      <Filter>Arch Specific\Low Level Window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriver.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriver_Null.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Folder.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MemoryCard\MemoryCardDriverThreaded_Windows.h">
+      <Filter>Arch Specific\Memory Card</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_Generic.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_Null.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\MovieTexture\MovieTexture_FFMpeg.h">
+      <Filter>Arch Specific\Movie Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_Null.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\DSoundHelpers.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_DSound_Software.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_WaveOut.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Sound\RageSoundDriver_WDMKS.h">
+      <Filter>Arch Specific\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Threads\Threads.h">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\arch\Threads\Threads_Win32.h">
+      <Filter>Arch Specific\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Course.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CourseLoaderCRS.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CourseUtil.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CourseWriterCRS.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Trail.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\TrailUtil.h">
+      <Filter>Data Structures\Courses and Trails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Font.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\FontCharAliases.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\FontCharmaps.h">
+      <Filter>Data Structures\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LuaBinding.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LuaExpressionTransform.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LuaReference.h">
+      <Filter>Data Structures\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteData.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteDataUtil.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteDataWithScoring.h">
+      <Filter>Data Structures\Note Data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoader.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderBMS.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderDWI.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderJson.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderKSF.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderSM.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderSMA.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesLoaderSSC.h">
+      <Filter>Data Structures\Notes Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesWriterDWI.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesWriterJson.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesWriterSM.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NotesWriterSSC.h">
+      <Filter>Data Structures\Notes Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreKeeper.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreKeeperNormal.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreKeeperRave.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScoreKeeperShared.h">
+      <Filter>Data Structures\Score Keepers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Song.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SongCacheIndex.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SongOptions.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SongPosition.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SongUtil.h">
+      <Filter>Data Structures\Songs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Steps.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StepsUtil.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Style.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StyleUtil.h">
+      <Filter>Data Structures\Steps and Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\AdjustSync.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Attack.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\AutoKeysounds.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\BackgroundUtil.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ImageCache.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Character.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CodeDetector.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CodeSet.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Command.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CommonMetrics.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CreateZip.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CryptHelpers.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CubicSpline.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DateTime.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\DisplaySpec.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Difficulty.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\EnumHelper.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\FileDownload.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Game.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameCommand.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameConstantsAndTypes.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameInput.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GameplayAssist.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\GamePreferences.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Grade.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\HighScore.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\InputEventPlus.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\JsonUtil.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LocalizedString.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\LyricsLoader.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ModsGroup.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\NoteTypes.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\OptionRowHandler.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PlayerAI.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PlayerNumber.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PlayerOptions.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PlayerStageStats.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\PlayerState.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Preference.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Profile.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RadarValues.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RandomSample.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SampleHistory.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenDimensions.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SoundEffectControl.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\SubscriptionManager.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\StageStats.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ThemeMetric.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\TimingData.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\TimingSegments.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\TitleSubstitution.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RoomWheel.h">
+      <Filter>Data Structures\Misc Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFile.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileBasic.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriver.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverDeflate.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverDirect.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverDirectHelpers.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverMemory.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverReadAhead.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverSlice.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverTimeout.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileDriverZip.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileManager.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageFileManager_ReadAhead.h">
+      <Filter>Rage\File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageBitmapTexture.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageDisplay.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageDisplay_Null.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageDisplay_OGL.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageDisplay_OGL_Helpers.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageModelGeometry.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load_BMP.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load_GIF.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load_JPEG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load_PNG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Load_XPM.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Save_BMP.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Save_JPEG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurface_Save_PNG.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurfaceUtils.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurfaceUtils_Dither.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurfaceUtils_Palettize.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSurfaceUtils_Zoom.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTexture.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTextureID.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTextureManager.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTexturePreloader.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTextureRenderTarget.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageDisplay_D3D.h">
+      <Filter>Rage\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageException.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageInput.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageInputDevice.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageLog.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageMath.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTypes.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageThreads.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageTimer.h">
+      <Filter>Rage\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSound.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundManager.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundMixBuffer.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundPosMap.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Chain.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_ChannelSplit.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Extend.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_FileReader.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Filter.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Merge.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Pan.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_PitchChange.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_PostBuffering.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Preload.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Resample_Good.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_SpeedChange.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_ThreadedBuffer.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_WAV.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundUtil.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_Vorbisfile.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageSoundReader_MP3.h">
+      <Filter>Rage\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_AutoPtr.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_BackgroundLoader.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_CachedObject.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_CharConversions.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_CircularBuffer.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_FileDB.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\RageUtil_WorkerThread.h">
+      <Filter>Rage\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenGameplay.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenGameplayNormal.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenGameplayShared.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenGameplaySyncMachine.h">
+      <Filter>Screens\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptions.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsCourseOverview.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsEditCourse.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsEditProfile.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsExportPackage.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsManageCourses.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsManageEditSteps.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsManageProfiles.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsMaster.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsMasterPrefs.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsMemoryCard.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenOptionsToggleSongs.h">
+      <Filter>Screens\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNetEvaluation.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNetRoom.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNetSelectBase.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNetSelectMusic.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNetworkOptions.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSMOnlineLogin.h">
+      <Filter>Screens\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\Screen.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenAttract.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenBookkeeping.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenContinue.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenDebugOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenDemonstration.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenEdit.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenEditMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenEnding.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenEvaluation.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenExit.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenHighScores.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenHowToPlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenInstallOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenInstructions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenJukebox.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenMapControllers.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenMessage.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenMiniMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNameEntry.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenNameEntryTraditional.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenPackages.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenPlayerOptions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenProfileLoad.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenProfileSave.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenPrompt.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenRanking.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenReloadSongs.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSandbox.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSaveSync.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelect.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelectCharacter.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelectLanguage.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelectMaster.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelectMusic.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSelectProfile.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenServiceAction.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSetTime.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSongOptions.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSplash.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenStatsOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSyncOverlay.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenSystemLayer.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenTestInput.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenTestLights.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenTestSound.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenTextEntry.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenTitleMenu.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenUnlockBrowse.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenUnlockCelebrate.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenUnlockStatus.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\ScreenWithMenuElements.h">
+      <Filter>Screens\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\AppInstance.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\arch_setup.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\CommandLine.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\Crash.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\CrashHandlerInternal.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\CrashHandlerNetworking.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\DebugInfoHunt.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\DialogUtil.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\DirectXHelpers.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\ErrorStrings.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\GetFileInformation.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\GotoURL.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\GraphicsWindow.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\MessageWindow.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\RegistryAccess.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\RestartProgram.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\SpecialDirs.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\USB.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\VideoDriverInfo.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\WindowIcon.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\WindowsDialogBox.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\archutils\Win32\WindowsResources.h">
+      <Filter>OS Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\CsvFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\IniFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\MsdFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\XmlFile.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\XmlToLua.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\bench\stepmania\src\XmlFileUtil.h">
+      <Filter>File Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\bench\stepmania\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\bench\stepmania\src\archutils\Win32\WindowsResources.rc">
+      <Filter>OS Specific</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{02380657-2452-34ED-A771-23EBC6CD8963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Base">
+      <UniqueIdentifier>{7F54BA30-864E-30A8-ABF7-38A3284A61D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Gameplay">
+      <UniqueIdentifier>{9F490869-EA25-3B97-B5F6-443DE43F078A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Gameplay and Menus">
+      <UniqueIdentifier>{21577433-37C9-3D33-A058-8537D17B751C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Menus">
+      <UniqueIdentifier>{E5C55A17-957F-3E6F-B998-143D2EC8C16F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific">
+      <UniqueIdentifier>{A87A158D-1220-3562-A60F-6C26EB572340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Arch Hooks">
+      <UniqueIdentifier>{5BAB0693-32F3-3645-B482-34D8ADDE8534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Dialog">
+      <UniqueIdentifier>{9ECED5B4-8779-36AE-85FA-84899B6DB562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Input Handler">
+      <UniqueIdentifier>{D71EC3DA-BF50-3675-95BC-B17257CC8709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Lights">
+      <UniqueIdentifier>{3896FF9C-5AC1-3D3B-85A4-34E763D318B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Loading Window">
+      <UniqueIdentifier>{6B28D1F1-6DA8-37D7-8C7B-92B75D490FED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Low Level Window">
+      <UniqueIdentifier>{6A3182D4-DBB5-3D8C-99F2-177ED8B2B838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Memory Card">
+      <UniqueIdentifier>{5930B9D1-5796-338F-94D5-A44E8E0C9F4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Movie Texture">
+      <UniqueIdentifier>{FA43013C-C4C0-39CC-B38D-DA730E6AF20D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Sound">
+      <UniqueIdentifier>{B1AB359A-28D6-38C5-989C-1068EEE8D444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arch Specific\Threads">
+      <UniqueIdentifier>{9E049518-525C-3450-9508-EC74E9B32E28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{9AE5D3D5-107E-3E23-AF22-63BE10F4DD78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Courses and Trails">
+      <UniqueIdentifier>{88AC5768-AEF9-3074-9A72-CF514572CB69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Fonts">
+      <UniqueIdentifier>{65F84646-C2AB-316D-A066-4F857EB03992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Lua">
+      <UniqueIdentifier>{7B554D10-55F7-31BD-AA01-CED93517FAB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Misc Objects">
+      <UniqueIdentifier>{6BCE4BD4-2B89-30B7-AA32-8AD87E7707AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Note Data">
+      <UniqueIdentifier>{6A8E5E00-D1A5-38DC-9AEF-2EB199DECF09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Notes Loaders">
+      <UniqueIdentifier>{71C65AC1-ED79-31BD-AD78-507562018736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Notes Writers">
+      <UniqueIdentifier>{90D6725C-0ED9-35AF-9656-480B5141A13B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Score Keepers">
+      <UniqueIdentifier>{71E165E5-3C99-3535-ABF7-27DC10A4E332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Songs">
+      <UniqueIdentifier>{E5BD2444-0F28-30ED-88A5-E35ACBEF324B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Steps and Styles">
+      <UniqueIdentifier>{2B794E9A-07A5-3C8D-B77F-DAEE3574D0A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File Types">
+      <UniqueIdentifier>{03EBDDE2-2800-3D23-B357-00277DB7CEF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Files">
+      <UniqueIdentifier>{95426146-254D-3B1A-BC5A-6FFC1E99C1B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global Singletons">
+      <UniqueIdentifier>{0B051D37-3B0A-33DF-AB6B-E0DEC59073EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS Specific">
+      <UniqueIdentifier>{8F58365A-85FD-3D7A-90B5-FBAF86BE1031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage">
+      <UniqueIdentifier>{58297F3C-5E83-35EE-87E5-43DE06BE60CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\File">
+      <UniqueIdentifier>{73A3A457-314C-344A-8424-94C42741EB6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Graphics">
+      <UniqueIdentifier>{F624A1A9-6B65-3A97-A7F4-6DBBCFC6F4A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Misc">
+      <UniqueIdentifier>{53F4A9DA-7D26-30ED-821B-DE6D023107C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Sound">
+      <UniqueIdentifier>{DB036AA6-DA64-346C-8042-85BE933181A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rage\Utils">
+      <UniqueIdentifier>{C0138959-1CF0-3D41-9DE5-E6706D92A4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{064F868B-A45A-36E9-8237-A20CFA551E25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Gameplay">
+      <UniqueIdentifier>{9FA6A4BD-4A82-3A43-B767-D7AAFADFB72B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Network">
+      <UniqueIdentifier>{EA7D03E4-75AF-34C7-9F99-9D674B58907F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Options">
+      <UniqueIdentifier>{4BC2BD5F-5506-3CD4-A28D-C570D225F2F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens\Others">
+      <UniqueIdentifier>{B91C3B71-1F85-395D-8F23-3757D06DD884}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
