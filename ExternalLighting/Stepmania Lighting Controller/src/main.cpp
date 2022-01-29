@@ -13,6 +13,8 @@ int incomingByte = 0;
 uint8_t serialBuff[100];
 int serialBuffLoc = 0;
 
+bool justFlushed = false;
+
 // # LIGHT_MARQUEE_UP_LEFT
 // # LIGHT_MARQUEE_UP_RIGHT
 // # LIGHT_MARQUEE_LR_LEFT
@@ -57,12 +59,20 @@ void sextetToBools(uint8_t sextet)
   }
 }
 
+void serialFlush(){
+  while(Serial.available() > 0) {
+    char t = Serial.read();
+  }
+  Serial.flush();
+}
+
 void writeToLed(uint8_t r, uint8_t g, uint8_t b)
 {
   analogWrite(ledR, r);
   analogWrite(ledG, g);
   analogWrite(ledB, b);
 }
+
 
 void writeToLedHsv(uint8_t hsv)
 {
@@ -101,6 +111,26 @@ void loop()
       }
     }
   }
+
+  bool allActive = true;
+  
+  //flush connection each song to hopefully get rid of lag spikes after a while
+  for(int i = 0; i<6; i++){
+    if(!lights[i]){
+      allActive = false;
+      break;
+    }
+  }
+  if (allActive){
+    if(!justFlushed){
+      serialFlush();
+      justFlushed = true;
+    }
+  }else{
+    justFlushed = false;
+  }
+
+
   uint8_t basshsv = 224 + lights[5] ? lightsInitColor[5] : 0 + lights[4] ? 128 + lightsInitColor[4]
                                                                          : 0;
 
